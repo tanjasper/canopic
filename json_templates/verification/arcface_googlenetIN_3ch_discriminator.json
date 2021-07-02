@@ -1,0 +1,18 @@
+{
+	"discriminator_arch": "ArcfaceDiscriminator",
+	"discriminator_settings": {
+		"base_arch": "Googlenet_64",
+		"base_settings": { 
+			"num_classes": 512,
+			"aux_logits": 0,
+			"init_weights": 1,
+			"in_channels": 3,
+			"norm_type": "instance_norm"
+		},
+		"embedding_dim": 512,
+		"num_classes": 8631,
+		"easy_margin": 0,
+		"s": 64,
+		"m": 0.5
+	}
+}

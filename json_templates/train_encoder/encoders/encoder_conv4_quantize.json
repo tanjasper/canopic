@@ -1,0 +1,16 @@
+{
+	"encoder_archs": ["Convolution", "LearnQuantize"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 11,
+			"num_filters": 4,
+			"kernel_path": "inits/conv4_1_11_bars.npy",
+			"padding": 5,
+			"padmode": "replicate"
+		},
+		{
+			"bits": 4,
+			"sigma_scale": 5
+		}
+	]
+}

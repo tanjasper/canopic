@@ -1,0 +1,14 @@
+{
+	"encoder_archs": ["GaussianBlur", "Normalization"],
+	"encoder_settings": [
+		{
+			"sigma": 8,
+			"input_dim": 64,
+			"output_dim": 64
+		},
+		{
+			"mode": "instance_norm",
+			"in_channels": 3
+		}
+	]
+}

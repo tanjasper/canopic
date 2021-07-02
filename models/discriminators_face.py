@@ -1,0 +1,1 @@
+raise NameError('discriminators_face.py is deprecated. Please use models.discriminators')

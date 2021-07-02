@@ -1,0 +1,7 @@
+{
+	"discriminator_arch": "resnet18_64_N_IN",
+	"discriminator_settings": { 
+		"num_classes": 400,
+		"N": 12
+	}
+}

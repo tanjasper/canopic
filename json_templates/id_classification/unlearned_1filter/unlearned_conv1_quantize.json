@@ -1,0 +1,15 @@
+{
+	"encoder_archs": ["Convolution", "FixedQuantize"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 63,
+			"num_filters": 1,
+			"kernel_path": "inits/conv1_1_63_8_gauss.npy",
+			"padding": 31,
+			"padmode": "replicate"
+		},
+		{
+			"bits": 4
+		}
+	]
+}

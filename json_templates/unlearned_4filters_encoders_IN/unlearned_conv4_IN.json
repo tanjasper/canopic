@@ -1,0 +1,14 @@
+{
+	"encoder_archs": ["Convolution", "Normalization"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 11,
+			"num_filters": 4,
+			"kernel_path": "inits/conv4_1_11_bars.npy"
+		},
+		{
+			"mode": "instance_norm",
+			"in_channels": 12
+		}
+	]
+}

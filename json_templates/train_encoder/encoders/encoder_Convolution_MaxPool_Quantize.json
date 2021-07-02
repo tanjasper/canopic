@@ -1,0 +1,24 @@
+{
+	"encoder_archs": ["Convolution", "MaxPool", "LearnQuantize", "Upsample"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 63,
+			"num_filters": 1,
+			"kernel_path": "inits/conv1_1_63_8_gauss.npy",
+			"padding": 31,
+			"padmode": "replicate"
+		},
+		{ 
+			"kernel_size": 8,
+			"stride": 8
+		},
+		{
+			"bits": 4,
+			"sigma_scale": 5
+		},
+		{
+			"scale_factor": 8,
+			"mode": "bilinear"
+		}
+	]
+}

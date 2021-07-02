@@ -1,0 +1,17 @@
+{
+	"encoder_archs": ["GaussianBlur", "FixedQuantize", "Normalization"],
+	"encoder_settings": [
+		{
+			"sigma": 8,
+			"input_dim": 64,
+			"output_dim": 64
+		},
+		{
+			"bits": 4
+		},
+		{
+			"mode": "instance_norm",
+			"in_channels": 3
+		}
+	]
+}

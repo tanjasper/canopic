@@ -1,0 +1,13 @@
+{
+	"encoder_archs": ["MaxPool", "Upsample"],
+	"encoder_settings": [
+		{
+			"kernel_size": 8,
+			"stride": 8
+		},
+		{
+			"scale_factor": 8,
+			"mode": "bilinear"
+		}
+	]
+}

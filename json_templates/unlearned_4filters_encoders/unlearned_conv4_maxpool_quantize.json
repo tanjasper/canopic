@@ -1,0 +1,21 @@
+{
+	"encoder_archs": ["Convolution", "MaxPool", "FixedQuantize", "Upsample"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 11,
+			"num_filters": 4,
+			"kernel_path": "inits/conv4_1_11_bars.npy"
+		},
+		{
+			"kernel_size": 8,
+			"stride": 8
+		},
+		{
+			"bits": 4
+		},
+		{
+			"scale_factor": 8,
+			"mode": "bilinear"
+		}
+	]
+}

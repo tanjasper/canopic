@@ -1,0 +1,15 @@
+{
+	"encoder_archs": ["FixedQuantize", "Upsample", "Normalization"],
+	"encoder_settings": [
+		{
+			"bits": 4
+		},
+		{
+			"enabled": 0
+		},
+		{
+			"mode": "instance_norm",
+			"in_channels": 3
+		}
+	]
+}

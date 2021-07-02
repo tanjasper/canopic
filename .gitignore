@@ -1,0 +1,5 @@
+__pycache__/
+data/ILSVRC2012/images/train
+data/ILSVRC2012/images/val
+data/vggface2/train
+data/vggface2/test

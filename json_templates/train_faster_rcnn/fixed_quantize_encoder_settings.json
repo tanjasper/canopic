@@ -1,0 +1,12 @@
+{
+	"encoder_archs": ["FixedQuantize", "Normalization"],
+	"encoder_settings": [
+		{
+			"bits": 4
+		},
+		{
+			"mode": "instance_norm",
+			"in_channels": 3
+		}
+	]
+}

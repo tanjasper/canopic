@@ -1,0 +1,7 @@
+{
+	"discriminator_arch": "resnet34_64",
+	"discriminator_settings": { 
+		"num_classes": 400,
+		"in_channels": 12
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"encoder_archs": ["LearnQuantize"],
+	"encoder_settings": [
+		{ 
+			"bits": 4,
+			"sigma_scale": 5
+		}
+	]
+}

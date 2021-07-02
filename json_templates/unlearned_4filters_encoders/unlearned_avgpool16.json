@@ -1,0 +1,13 @@
+{
+	"encoder_archs": ["AveragePool", "Upsample"],
+	"encoder_settings": [
+		{
+			"kernel_size": 16,
+			"stride": 16
+		},
+		{
+			"scale_factor": 16,
+			"mode": "bilinear"
+		}
+	]
+}

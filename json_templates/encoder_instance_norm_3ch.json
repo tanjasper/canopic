@@ -1,0 +1,9 @@
+{
+	"encoder_archs": ["Normalization"],
+	"encoder_settings": [
+		{ 
+			"mode": "instance_norm",
+			"in_channels": 12
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"discriminator_arch": "Googlenet_64",
+	"discriminator_settings": { 
+		"num_classes": 2,
+		"aux_logits": 1,
+		"init_weights": 1,
+		"in_channels": 3,
+		"norm_type": "instance_norm"
+	}
+}

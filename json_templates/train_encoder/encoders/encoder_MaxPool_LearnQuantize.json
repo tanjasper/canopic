@@ -1,0 +1,17 @@
+{
+	"encoder_archs": ["MaxPool", "LearnQuantize", "Upsample"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 8,
+			"stride": 8
+		},
+		{ 
+			"bits": 4,
+			"sigma_scale": 5
+		},
+		{
+			"scale_factor": 8,
+			"mode": "bilinear"
+		}
+	]
+}

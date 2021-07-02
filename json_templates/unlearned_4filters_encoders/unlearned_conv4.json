@@ -1,0 +1,10 @@
+{
+	"encoder_archs": ["Convolution"],
+	"encoder_settings": [
+		{ 
+			"kernel_size": 11,
+			"num_filters": 4,
+			"kernel_path": "inits/conv4_1_11_bars.npy"
+		}
+	]
+}
