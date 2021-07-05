@@ -19,13 +19,13 @@ Examples:
 
 To train a Conv(1)-Maxpool-Quantize CAnOPIC with alpha=50:
 ```
-python train_encoder.py --save_dir Learned_Conv4_Maxpool_Quantize --results_dir alpha50 --encoder_settings_json json_templates/train_encoder/encoders/encoder_conv4_maxpool_quantize.json --entropy_weight 50
+python train_encoder.py --save_dir Learned_Conv1_Maxpool_Quantize --results_dir alpha50 --encoder_settings_json json_templates/train_encoder/encoders/encoder_Convolution_MaxPool_Quantize.json --entropy_weight 50
 ```
 The `train_encoder.py` script also contains a number of other parameters. The default parameters set are the parameters used for the paper.
 
 To train a Conv(4)-Maxpool CAnOPIC with alpha=300:
 ```
-python train_encoder.py --save_dir Learned_Conv1_Maxpool --results_dir alpha300 --encoder_settings_json json_templates/train_encoder/encoders/encoder_Convolution_MaxPool.json --entropy_weight 300 --discriminatorA_settings_json json_templates/train_encoder/discriminators/resnet18IN_100class_in12_settings.json --discriminatorB_settings_json json_templates/train_encoder/discriminators/resnet18IN_2class_in12_settings.json
+python train_encoder.py --save_dir Learned_Conv4_Maxpool --results_dir alpha300 --encoder_settings_json json_templates/train_encoder/encoders/encoder_conv4_maxpool.json --entropy_weight 300 --discriminatorA_settings_json json_templates/train_encoder/discriminators/resnet18IN_100class_in12_settings.json --discriminatorB_settings_json json_templates/train_encoder/discriminators/resnet18IN_2class_in12_settings.json
 ```
 Note that for Conv(4), we need to use a discriminator that can take in 12 channels as inputs. The default discriminator is one set to take in 3 channels as inputs. Thus, we have to pass in different `--discriminatorA_settings_json` and `--discriminatorB_settings_json` for the Conv(4) case.
 
